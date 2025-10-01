@@ -1,0 +1,48 @@
+[config.wallpaper]
+# Whether to set the wallpaper or not
+set = false
+
+# The base command to run for applying the wallpaper, shouldn't have spaces in it.
+command = "swww"
+
+# The arguments that will be provided to the command.
+# Keywords like {{ mode }} or anything that works inside of hooks doesn't work here.
+# The last argument will be the image path.
+arguments = ["img", "--transition-type", "any", "--transition-step", "90", "--transition-duration", "3", "--transition-fps", "60"]
+
+[templates.hyprland]
+input_path = '~/.config/hypr/matugen/templates/hyprland-colors.conf'
+output_path = '~/.config/hypr/hyprland/colors.conf'
+post_hook = 'hyprctl reload'
+
+[templates.kitty]
+input_path = '~/.config/hypr/matugen/templates/kitty-colors.conf'
+output_path = '~/.config/hypr/kitty/colors.conf'
+post_hook = 'kill -SIGUSR1 $(pgrep kitty)'
+
+[templates.rofi]
+input_path = '~/.config/hypr/matugen/templates/rofi-colors.rasi'
+output_path = '~/.config/hypr/rofi/colors/matugen.rasi'
+post_hook = "/home/cattooo/.local/bin/rofi_matugen_fix.sh"
+
+[templates.waybar]
+input_path = '~/.config/hypr/matugen/templates/colors.css'
+output_path = '~/.config/hypr/waybar/colors.css'
+
+[templates.fastfetch]
+input_path = '~/.config/hypr/matugen/templates/fastfetch.jsonc'
+output_path = '~/.config/hypr/fastfetch/config.jsonc'
+
+[templates.wlogout]
+input_path = '~/.config/hypr/matugen/templates/wlogout.css'
+output_path = '~/.config/hypr/wlogout/style.css'
+
+[templates.hyprlock]
+input_path = '~/.config/hypr/matugen/templates/hyprlock-colors.conf'
+output_path = '~/.config/hypr/hyprland/hyprlock.conf'
+
+[templates.cava]
+input_path ='~/.config/hypr/matugen/templates/cava-colors'
+output_path = '~/.config/hypr/cava/config'
+
+post_hook = 'pkill waybar; waybar & disown'

@@ -1,0 +1,42 @@
+{
+    "include": "~/.config/hypr/waybar/modules.jsonc",
+    "layer": "top",
+    "exclusive": true,
+    "passthrough": false,
+    "position": "top",
+    "height": 35,
+    "spacing": 0,
+    "fixed-center": true,
+    "ipc": true,
+    "margin-top": 0,
+    "margin-left": 0,
+    "margin-right": 0,
+    "margin-bottom": 0,
+
+    "modules-left": [
+      "custom/launcher",
+      "group/utility",
+      "custom/playerctl#backward",
+      "custom/playerctl#play",
+      "custom/playerctl#forward",
+      "custom/playerlabel"
+    ],
+
+    "modules-center": [
+      "custom/weather",
+      "test",
+      "power-profiles-daemon",
+      "hyprland/workspaces",
+      "custom/swaync"
+    ], 
+
+    "modules-right": [
+      "backlight",
+      "battery",
+	    "pulseaudio",
+      "network",
+      "clock"
+    ]
+}
+
+// symlink test 22

@@ -1,0 +1,65 @@
+@import '/home/cattooo/.config/hypr/waybar/colors.css';
+
+* {
+  font-family: JetBrainsMono Nerd Font;
+  background-image: none;
+  transition-property: background-size, border;
+  transition-duration: 0.5s;
+}
+
+window {
+  background-color: rgba(12,12,12,0.3);
+}
+
+button {
+  color: @secondary;
+  font-size: 20px;
+  background-color: rgba(12, 12, 12, 0.5);
+  border: 5px solid @secondary;
+  border-radius: 30px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 22%;
+  margin: 15px;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.3), 0 6px 20px 0 rgba(0,0,0,0.3);
+}
+
+button:active,
+button:hover,
+button:focus {
+  color: @secondary;
+  border: 5px solid @primary_container;
+  border-radius: 30px;
+  background-size: 26%;
+}
+
+
+#lock {
+  background-image: image(url("/usr/share/wlogout/icons/lock.png"),
+                         url("/usr/local/share/wlogout/icons/lock.png"));
+}
+
+#logout {
+  background-image: image(url("/usr/share/wlogout/icons/logout.png"),
+                          url("/usr/local/share/wlogout/icons/logout.png"));
+}
+
+#suspend {
+  background-image: image(url("/usr/share/wlogout/icons/suspend.png"),
+                          url("/usr/local/share/wlogout/icons/suspend.png"));
+}
+
+#hibernate {
+  background-image: image(url("/usr/share/wlogout/icons/hibernate.png"),
+                          url("/usr/local/share/wlogout/icons/hibernate.png"));
+}
+
+#shutdown {
+  background-image: image(url("/usr/share/wlogout/icons/shutdown.png"),
+                          url("/usr/local/share/wlogout/icons/shutdown.png"));
+}
+
+#reboot {
+  background-image: image(url("/usr/share/wlogout/icons/reboot.png"),
+                         url("/usr/local/share/wlogout/icons/reboot.png"));
+}
