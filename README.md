@@ -21,7 +21,7 @@ But yeah this is it, 5 days of ricing, learnt a lot, crashed out multiple times,
 
 
 <details>
-  <summary>Showcase!</summary>
+  <summary><h1>Showcase!</h1></summary>
 
   ![Desktop](hypr/screenshots/kita.png)
   <br>
