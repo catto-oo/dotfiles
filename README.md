@@ -5,7 +5,7 @@ This is not intended for use lmao, I did a lot of things in super roundabout way
 
   ![Desktop](hypr/screenshots/kita.png)
   ![Cava](hypr/screenshots/oneshot%20cava.png)
-  ![Waypaper](hypr/screenshots/disco%20elysium%20and%20waypaper)
+  ![Waypaper](hypr/screenshots/disco&#x20;elysium&#x20;and&#x20;waypaper)
   ![Fastfetch](hypr/screenshots/fasfetch%20blue)
   ![Rofi](hypr/screenshots/rofi%20hanyuu)
   ![Hyprland](hypr/screenshots/i%20love%20window%20managers)
