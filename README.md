@@ -5,13 +5,13 @@ This is not intended for use lmao, I did a lot of things in super roundabout way
 
   ![Desktop](hypr/screenshots/kita.png)
   ![Cava](hypr/screenshots/oneshot%20cava.png)
-  ![Waypaper](hypr/screenshots/disco&#x20;elysium&#x20;and&#x20;waypaper)
-  ![Fastfetch](hypr/screenshots/fasfetch%20blue)
-  ![Rofi](hypr/screenshots/rofi%20hanyuu)
-  ![Hyprland](hypr/screenshots/i%20love%20window%20managers)
-  ![Windows](hypr/screenshots/persona%20misc)
-  ![Info](hypr/screenshots/disco%20btop%20nvtop)
-  ![Menu](hypr/screenshots/wlogout%20hanyuu)
+  ![Waypaper](hypr/screenshots/disco%20elysium%20and%20waypaper.png)
+  ![Fastfetch](hypr/screenshots/fasfetch%20blue.png)
+  ![Rofi](hypr/screenshots/rofi%20hanyuu.png)
+  ![Hyprland](hypr/screenshots/i%20love%20window%20managers.png)
+  ![Windows](hypr/screenshots/persona%20misc.png)
+  ![Info](hypr/screenshots/disco%20btop%20nvtop.png)
+  ![Menu](hypr/screenshots/wlogout%20hanyuu.png)
 
 </details>
 
